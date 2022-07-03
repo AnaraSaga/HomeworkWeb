@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.form{
+    border: 1px solid gray;
+    border-radius: 20px;  /* allows border form to make round. the more px u add the rounder border will be*/
+    width: 350px;
+    padding: 16px;
+    margin: 20px;
+
+    display: flex;  /* build our elements one under another*/
+    flex-direction: column; /*changed direction*/
+    justify-content: center; 
+    align-items: center;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    position: relative;
+}
+
+.form_cross{
+    font-size: 20px;
+
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+.form_title{
+    width: 100%;
+    margin: 15px 0;
+    padding-left: 10px;
+}
+
+.form_input{
+    width: 90%;
+    margin: 2px 0;
+    padding: 14px 18px;
+
+    border: 1px solid #cfd8cf;
+    border-radius: 12px;
+}
+
+.form_input:focus{
+    outline: none;
+    border-color: #FFE44D;
+}
+
+.form_btn{
+    width: 100%;
+    margin: 2px 0;
+    padding: 14px 24px;
+    font-size: 15px;
+    font-weight: 600 ;
+    border-radius: 55px;
+}
+
+.form_info_text{
+    margin: 15px 0;
+    padding-left: 10px;
+    color: gray;
+    font-size: 13px;
+}
+
+.submit_btn {
+    background-color: #FFE44D;
+    border: transparent;
+}
+
+.redirect_btn{
+    background-color: white;
+    border: 1px solid #cfd8dc;
+}
+
+.form_info_password{
+    margin: 15px 0;
+    padding-left: 10px;
+    color: gray;
+    font-size: 13px; 
+    text-align: right; /*does not work??*/
+}
+
