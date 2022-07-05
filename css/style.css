@@ -26,6 +26,8 @@
     position: absolute;
     top: 5%;
     right: 5%;
+
+    cursor: pointer;
 }
 
 .form_title{
@@ -62,6 +64,7 @@
     padding-left: 10px;
     color: gray;
     font-size: 13px;
+    width: 100%;
 }
 
 .submit_btn {
@@ -72,13 +75,23 @@
 .redirect_btn{
     background-color: white;
     border: 1px solid #cfd8dc;
+    color: black;
 }
 
-.form_info_password{
+.btn_registration{
+    width: 85%;
+    text-align: center;
+}
+
+.form_info_reset_password{
     margin: 15px 0;
     padding-left: 10px;
     color: gray;
     font-size: 13px; 
-    text-align: right; /*does not work??*/
+    width: 350px;
+    text-align: right; 
 }
 
+a{
+    text-decoration: none;
+}
